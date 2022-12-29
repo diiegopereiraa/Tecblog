@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/css/global.css">
+  <link rel="stylesheet" href="../assets/css/links.css">
+  <link rel="stylesheet" href="../assets/css/indice.css">
+
+  <title>O que é HTML?</title>
+</head>
+
+<body>
+  <!-- ====== MENU DE NAVEGAÇÃO ====== -->
+  <header class="header">
+    <a id="logo" href="#"><span class="logo">Tec</span>Blog</a>
+    <nav class="nav">
+      <ul class="menu">
+        <li><a href="../index.html">home</a></li>
+        <li><a href="../tutoriais.html">tutoriais</a></li>
+        <li><a href="#">computador</a></li>
+        <li><a href="#">jogos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== MENU DE ÍNDICE ===== -->
+  <header id="fundo">
+    <button id="btn-indice">Abrir
+      <span>+</span>
+    </button>
+    <h1 class="conteudo">Índice</h1>
+    <nav id="menuLink">
+      <ul id="indice">
+        <li><a href="#html">O que é Html</a></li>
+        <li><a href="#tags">O que são Tags?</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!--- ====== ÁREA PRINCIPAL DO CONTEÚDO ====== -->
+  <div id="area-principal">
+    <div class="postagem">
+      <h2 id="html" class="conteudo titulo">O que é HTML?</h2>
+      <a class="seta-esquerda" href="../index.html"><img src="../assets/img/seta-para-a-esquerda.png" alt="" srcset=""></a>
+
+      <p class="texto">O HTML é uma linguagem de marcação de texto seu código é utilizado uma página web. Por exemplo, o conteúdo pode ser estruturado em parágrafos, em uma lista com marcadores ou usando imagens e tabelas. O HTML é uma linguagem de marcação (e não de programação, como muitos às vezes confundem. Vale mencionar que, apesar do HTML ser usado para estruturar uma página, ele não é o responsável pela sua aparência.Para isso, existe o CSS (Folhas de Estilo em Cascata) permite a você criar páginas web agradáveis.</p>
+
+      <h3 id="tags" class="conteudo titulo">O que são Tags?</h3>
+      <p class="texto">
+        As tags HTML são elementos que definem o conteúdo dos documentos HTML.Aplicar uma tag HTML é muito simples. Primeiro, você precisa escolher a tag que deseja aplicar. Em seguida, basta inserir o texto ou o conteúdo que deseja marcar com a tag. Uma tag HTML é uma marca que indica ao navegador que um determinado texto ou elemento deve ser interpretado conforme as regras do HTML.Elas são formadas por uma abertura e uma fechadura, delimitadas por um símbolo de menor que (<) e maior que (>), respectivamente. As tags podem conter atributos, definidos pelo símbolo de igual (=) e separados por espaços. Os atributos podem ter valores atribuídos a eles, que devem estar entre aspas duplas (“).
+      </p>
+
+      <p class="texto"><span class="color-tag">Tags semânticas:</span>
+        São tags que possuem um significado, ou seja, elas irão dar sentido a uma informação de texto ao navegador e buscador. As mais comuns são:
+        article, header, nav e outras.
+      <p>
+
+      <p class="texto"><span class="color-tag">Tags sem semântica:</span>
+        São tags que não possuem significado. Como assim? Elas servem apenas para utilização de separação e estilização. As mais usadas são: b, i, span e outras.</p>
+
+      <p class="texto">
+        <span class="color-tag">!DOCTYPE HTML:</span> Não é uma TAG é uma declaração de tipo documento uma maneira de informar o navegador o tipo de documento HTML.
+      </p>
+      <p class="texto">
+        <span class="color-tag">html:</span> Define o início do documento html, todos as demais tags devem estar dentro desta tag.
+      </p>
+      <p class="texto">
+        <span class="color-tag">lang="pt-br":</span> Informa a linguagem do tipo do documento.
+      </p>
+      <p class="texto">
+        <span class="color-tag">meta charset="UTF-8":</span> É indicação de um formato de codificação definido por caractéres.
+      </p>
+      <p class="texto">
+        <span class="color-tag">head:</span> Define o cabeçalho do documento com informações que não serão exibidas dentro do conteúdo da página.
+      </p>
+      <p class="texto">
+        <span class="color-tag">title:</span> Define o título do documento. é o texto mostrado na barra de título do navegador ou na aba da página.
+      </p>
+      <p class="texto">
+        <span class="color-tag">body:</span> Define o corpo do documento. O conteúdo de um documento html, como título, parágrafos, imagens,hiperlinks, tabelas, listas, etc.
+      </p>
+      <p class="texto">
+        <span class="color-tag">div:</span> É a tag que define uma divisão ou uma seção em um docuemnto html.
+      </p>
+      <p class="texto">
+        <span class="color-tag">hgroup:</span> Permite que o cabeçãho principal de uma seção de documento seja agrupado com quaiquer cabeçalhos. Secundário como subtitulos ou títulos alternativos para formatar um cabeçalho de vérios níveis.
+      </p>
+      <p class="texto">
+        <span class="color-tag">header:</span> É uma tag de cabeçalho que remete a semântica.
+      </p>
+      <p class="texto">
+        <span class="color-tag">br:</span> É a tag que significa quebra de linha ou break row.
+      </p>
+      <p class="texto">
+        <span class="color-tag">nbsp:</span> Non-breaking-space que significa espaço sem quebra.
+      </p>
+      <p class="texto">
+        <span class="color-tag">p:</span> Essa tag define um parágrafo do texto.
+      </p>
+      <p class="texto">
+        <span class="color-tag">wbr:</span> Essa tag Word break opportunity especifica onde um texto seria correto adicionar uma quebra de linha.
+      </p>
+      <p class="texto">
+        <span class="color-tag">shy :</span> Significa que adicionará um - se a palavra for muito longa, caso contrário, apenas renderizará a palavra como está.
+      </p>
+      <p class="texto">
+        <span class="color-tag">figure:</span> Essa tag serve para exibir imagens de qualquer tipo em nosso site de forma semântica.
+      </p>
+      <p class="texto">
+        <span class="color-tag">figcaption:</span> É a teg para adicionar uma descrição a imagem junto com a tag "figure".
+      </p>
+      <p class="texto">
+        <span class="color-tag">href:</span> Significa Hypertext reference, ou referência de hipertexto quando vou chamar um arquivo de fora.
+      </p>
+
+      <p class="texto">
+        <span class="color-tag">h1 a h6:</span> Representam 6 níveis de títulos, sendo o h1 de maior importância.
+      </p>
+      <p class="texto">
+        <span class="color-tag">img:</span> Define a utilização de uma imagem (JPG, GIF, PNG e outras). A imagem deve ser apontada com o uso do atributo src.
+      </p>
+      <p class="texto">
+        <span class="color-tag">mark:</span> representa um trecho de destaque em um texto, por exemplo, uma sequência de texto marcado como referência, devido à sua relevância em um contexto particular.
+      </p>
+      <p class="texto">
+        <span class="color-tag">small:</span> Essa tag representa comentários laterais e letras pequenas, como direitos autorais e texto legal, independentemente de sua apresentação estilizada.
+      </p>
+      <p class="texto">
+        <span class="color-tag">i:</span> Essa tag transforma o conteúdo em itálico;
+      </p>
+      <p class="texto">
+        <span class="color-tag">u:</span> Essa tag é usada para sublinhar o texto dentro da tag. Essa tag geralmente é usada para sublinhar palavras com erros ortográficos.
+      </p>
+      <p class="texto">
+        <span class="color-tag">strong:</span> Essa tag dá ao texto uma forte ênfase,e significa que o texto é exibido em negrito pelo navegador.
+      </p>
+      <p class="texto">
+        <span class="color-tag">strong:</span> Essa tag dá ao texto uma forte ênfase,e significa que o texto é exibido em negrito pelo navegador.
+      </p>
+      <p class="texto">
+        <span class="color-tag">ol:</span> "Ordered List Element" A tag é um elemento HTML que representa uma lista ordenada.
+      </p>
+      <p class="texto">
+        <span class="color-tag">ul:</span>"Unordered List Element" A tag é um elemento HTML que representa uma lista não ordenada.
+      </p>
+      <p class="texto">
+        <span class="color-tag">li:</span>"List Item Element" A tag define um item de lista.
+      </p>
+      <p class="texto">
+        <span class="color-tag">a:</span> Essa tag define um hiperlink, que é usado para vincular de uma página a outra.
+      </p>
+      <p class="texto">
+        <span class="color-tag">hr:</span>"Horizontal Rule" é usado para inserir uma linha horizontal numa página HTML.
+      </p>
+      <p class="texto">
+        <span class="color-tag">sub:</span>"Subscript Element" ou subscrito é utilizado escrever um texto com letras menores e com o alinhamento abaixo das que do resto do conteúdo.
+      </p>
+      <p class="texto">
+        <span class="color-tag">sub:</span>"Superscript Element" ou sobrescrito é utilizado escrever um texto com letras menores e com o alinhamento acima das que do resto do conteúdo.
+      </p>
+      <p class="texto">
+        <span class="color-tag">blockquote:</span> "Block Quotation" ou citação é utilizado para inserir um comentário de forma destacada com recuo de margem e espaçamento diante da linha anterior e diante da linha posterior.
+      </p>
+      <p class="texto">
+        <span class="color-tag">font:</span>"Font Element" ou letras é utilizado para configurar o tipo, cor e tamanho das letras de um texto de uma página HTML.
+      </p>
+      <p class="texto">
+        <span class="color-tag">del:</span>"Font Element" ou letras é utilizado para configurar o tipo, cor e tamanho das letras de um texto de uma página HTML.
+      </p>
+      <p class="texto">
+        <span class="color-tag">abbr:</span> "Abbreviation Element" ou abreviatura é o marcador utilizado para se inserir uma sigla em uma página HTML, ele pode acontecer, por exemplo, dentro de um parágrafo.
+      </p>
+
+      <span class="postado">Postado por Diego Pereira</span>
+    </div>
+
+    <!-- ==== RODAPÉ  ==== -->
+    <footer class="rodape">
+      <h3 class="conteudo">Saiba Mais</h3>
+      <ul>
+        <li><a href="https://www.deltainternet.net.br/blog/9/a-historia-da-origem-da-internet" target="_blank">Origem da internet.</a></li>
+        <li><a href="https://tudosobrehospedagemdesites.com.br/o-que-e-html/" target="_blank">Definição do HTML.</a></li>
+        <li><a href="https://www.hostinger.com.br/tutoriais/o-que-e-css-guia-basico-de-css" target="_blank">Definição do CSS.</a></li>
+      </ul>
+
+      <!-- ==== BOTÃO BARRA DE ROLAGEM  ==== -->
+      <a class="btn-top" href="#top">
+        <img src="../assets/img/seta-para-cima.png" alt="" srcset="">
+      </a>
+
+    </footer>
+
+
+
+    <script src="../assets/javascript/indice.js"></script>
+</body>
+
+</html>

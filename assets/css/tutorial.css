@@ -1,0 +1,30 @@
+.image-erro {
+  max-width: 100%;
+  width: 700px;
+  border-radius: 4px;
+  margin: 0px 10px;
+}
+#post-tutorial {
+  display: inline-block;
+  background: #fff;
+  border-radius: 4px;
+  padding: 10px;
+}
+#post-tutorial .titulo,
+.texto,
+.data-postagem {
+  margin-left: 10px;
+}
+#post-tutorial p {
+  font-size: 18px;
+  text-indent: 1.5rem;
+  line-height: 1.9;
+  margin-top: 15px;
+}
+
+.titulo2 {
+  margin-top: 20px;
+}
+.quebra {
+  margin-top: 20px;
+}

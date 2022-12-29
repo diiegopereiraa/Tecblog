@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/global.css">
+  <link rel="stylesheet" href="./assets/css/tutorial.css">
+  <link rel="stylesheet" href="./assets/css/indice.css">
+  <title>Tutorial</title>
+
+</head>
+
+<body>
+  <!-- ====== MENU DE NAVEGAÇÃO ====== -->
+  <header class="header">
+    <a id="logo" href="#"><span class="logo">Tec</span>Blog</a>
+    <nav class="nav">
+      <ul class="menu">
+        <li><a href="index.html">home</a></li>
+        <li><a href="tutoriais.html">tutoriais</a></li>
+        <li><a href="#">computador</a></li>
+        <li><a href="#">jogos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--- ====== MENU DE ÍNDICE ====== -->
+  <header id="fundo">
+    <button id="btn-indice">Abrir
+      <span>+</span>
+    </button>
+    <h1 class="conteudo">Índice</h1>
+    <nav id="menuLink">
+      <ul id="indice">
+        <li><a href="#server">Servidor com biblioteca do http-server</a></li>
+
+      </ul>
+    </nav>
+  </header>
+  <!--- ====== ÁREA PRINCIPAL DO CONTEÚDO ====== -->
+  <div id="area-principal">
+    <div id="post-tutorial">
+      <h2 id="server" class="conteudo titulo">Erro ao simular servidor com biblioteca do http-server: COMO RESOLVER!</h2>
+      <!-- <small><a href="#inicio">(voltar)</a></small> -->
+      <span class="data-postagem">Postado em 09/12/2022</span>
+      <img class="image-erro" src="./assets/img/http.webp" alt="html" srcset="">
+
+      <blockquote class="texto" cite="https://pt.stackoverflow.com/questions/220078/o-que-significa-o-erro-execu%C3%A7%C3%A3o-de-scripts-foi-desabilitada-neste-sistema">
+        <p class="texto">Isto é uma política de segurança do Powershell para evitar que scripts maliciosos sejam executados indevidamente no sistema operacional win 10, 11. Por isso, todos os scripts que não forem assinados terão sua execução bloqueada. Ou seja, a política de execução está como Restricted (que é o padrão).
+        </p>
+      </blockquote>
+
+      <p class="texto">Você pode controlar estas permissões usando o cmdlet Set-ExecutionPolicy. E pode conferir qual a política de execução atual usando o cmdlet Get-ExecutionPolicy.
+      </p>
+      <hr class="quebra">
+      <h2 class="titulo titulo2">Resolver esse erro.</h2>
+
+      <p class="texto"><mark class="marcacao">Método 1:</mark> Clique no ícone "pesquisar" na barra de tarefa digite: PowerShell executar como administrador, usando a janela executar</p>
+
+      <p class="texto"><mark class="marcacao">Método 2:</mark> Digite seguinte comando abaixo:</p>
+
+      <p class="texto">
+        Set-ExecutionPolicy -ExecutionPolicy Bypass
+      </p>
+
+      <p class="texto">
+        <srong> <i>Select "Yes For All (A)"</i></srong> (Selecione a opção A sim para todos e pressione ENTER.)
+      </p>
+
+      <p class="texto"> Depois basta ir novamente no terminal do VScode e digitar o comando http-server ./</p><br>
+
+      <span class="postado">Postado por Diego Pereira</span>
+    </div>
+
+    <!-- ==== RODAPÉ  ==== -->
+    <footer class="rodape">
+
+      <h3 class="conteudo titulo">Saiba Mais</h3>
+      <ul>
+        <li><a href="https://www.deltainternet.net.br/blog/9/a-historia-da-origem-da-internet" target="_blank">Origem da internet.</a></li>
+        <li><a href="https://tudosobrehospedagemdesites.com.br/o-que-e-html/" target="_blank">Definição do HTML.</a></li>
+        <li><a href="https://www.hostinger.com.br/tutoriais/o-que-e-css-guia-basico-de-css" target="_blank">Definição do CSS.</a></li>
+      </ul>
+
+      <!-- ==== BOTÃO BARRA DE ROLAGEM  ==== -->
+      <a class="btn-top" href="#top">
+        <img src="./assets/img/seta-para-cima.png" alt="" srcset="">
+      </a>
+
+    </footer>
+    <script src="../assets/javascript/indice.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+#fundo {
+  width: 750px;
+  background: #def1ff;
+  margin: 90px auto 20px;
+  border-radius: 4px;
+  padding: 1.4rem 0.4rem 1rem;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.1);
+}
+h1.conteudo {
+  font-size: 1.4rem;
+  text-align: center;
+  margin-bottom: 5px;
+}
+#indice {
+  height: 0;
+  transition: 0.6s;
+  visibility: hidden;
+  overflow-y: hidden;
+  background: #def1ff;
+  border-radius: 4px;
+}
+
+#menuLink.active #indice {
+  height: 20vh;
+  visibility: visible;
+}
+
+#indice a {
+  color: darkblue;
+  background: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+}
+
+#indice li {
+  margin: 10px 40px;
+  list-style: circle;
+}
+
+#btn-indice {
+  float: right;
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  border: 1px solid #c5dcfe;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 1s;
+}
+/* #btn-indice a {
+  text-decoration: none;
+} */
+#btn-indice:hover {
+  background-color: #133e6a;
+  color: #fff;
+}

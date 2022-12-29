@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/global.css">
+  <link rel="stylesheet" href="./assets/css/indice.css">
+  <title>Página Principal</title>
+
+</head>
+
+<body>
+  <!-- ====== MENU DE NAVEGAÇÃO ====== -->
+  <header class="header">
+    <a id="logo" href="#"><span class="logo">Tec</span>Blog</a>
+    <nav class="nav">
+      <ul class="menu">
+        <li><a href="index.html">home</a></li>
+        <li><a href="tutoriais.html">tutoriais</a></li>
+        <li><a href="#">computador</a></li>
+        <li><a href="#">jogos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <!--- ====== MENU DE ÍNDICE ====== -->
+  <header id="fundo">
+    <button id="btn-indice">Abrir
+      <span>+</span>
+    </button>
+    <h1 class="conteudo">Índice</h1>
+    <nav id="menuLink">
+      <ul id="indice">
+        <li><a href="#origem">A origem da internet</a></li>
+        <li><a href="#funciona-html">Como funciona o HTML</a></li>
+        <li><a href="#funciona-css">Como funciona o CSS</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--- ====== ÁREA PRINCIPAL DO CONTEÚDO ====== -->
+  <div id="area-principal">
+    <div class="postagem">
+      <a href="http://127.0.0.1:5500/links/internet.html" target="_parent" rel="noopener noreferrer">
+        <h2 id="origem" class="conteudo">A origem da internet</h2>
+        <span class="data-postagem">Postado em 09/12/2022</span>
+        <img class="image" src="./assets/img/internet.png" alt="html" srcset="">
+        <p>A Internet é a maior <strong>rede mundial</strong> de computadores existente na atualidade, proporciona a seus usuários comunicação a baixo custo e acesso a <strong>fontes inesgotáveis de informação.</strong> Ela conecta pessoas para os mais variados fins e tem contribuído para ampliar e democratizar o acesso à informação, eliminando barreiras como distância, fronteiras, fuso-horário, etc.</p>
+        <span class="postado">Postado por Diego Pereira</span>
+      </a>
+    </div>
+
+    <div class="postagem">
+      <a href="http://127.0.0.1:5500/links/tags.html" target="_parent" rel="noopener noreferrer">
+        <h2 class="conteudo">Como funciona o HTML</h2>
+        <span id="funciona-html" class="data-postagem">Postado em 29/11/2022</span>
+        <img class="image" src="./assets/img/imade-html.jpg" alt="html" srcset="">
+        <p>A sigla <strong>HTML</strong> é o termo em inglês <mark>HyperText Markup Language</mark> seu código é utilizado uma página web. Por exemplo, o conteúdo pode ser estruturado em parágrafos, em uma lista com marcadores ou usando imagens e tabelas. O <strong>HTML</strong> é uma <strong><i>linguagem de marcação de texto</i></strong>(e não de programação, como muitos às vezes confundem. Vale mencionar que, apesar de <del><sup>HTML</sup></del> ser usado para estruturar uma página, ele não é o responsável pela sua aparência.Para isso, existe o <strong>CSS</strong> (Folhas de Estilo em Cascata) permite a você criar páginas web agradáveis.
+        </p>
+        <span class="postado">Postado por Diego Pereira</span>
+      </a>
+    </div>
+
+    <div class="postagem">
+      <a href="http://127.0.0.1:5500/links/style.html" target="_parent" rel="noopener noreferrer">
+        <h2 id="funciona-css" class="conteudo">O que é CSS?</h2>
+        <span class="data-postagem">Postado em 09/11/2022</span>
+        <img class="image" src="./assets/img/css.png" alt="css" srcset="">
+        <p>O termo em inglês <abbr title="Cascading Style Sheets">CSS</abbr> que, traduzido para o português, significa <strong><i>Folha de Estilo em Cascatas</i></strong>. É uma <mark>"folha de estilo"</mark> composta por camadas com Seletor ele seleciona o(s) elemento(s) a serem estilizados (nesse caso, elementos. A declaração uma regra simples como color: red; especificando quais das propriedades do elemento você quer estilizar e a propriedade a forma pela qual você estiliza um elementos <small>HTML</small>. Nesse caso, color é uma propriedade dos elementos em <sub>CSS</sub>, você escolhe quais propriedades você deseja afetar com sua regra e o valor da propriedade
+        </p>
+
+        <span class="postado">Postado por Diego Pereira</span>
+      </a>
+    </div>
+
+    <!-- ==== RODAPÉ  ==== -->
+    <footer class="rodape">
+      <h3 class="conteudo">Saiba Mais</h3>
+      <ul>
+        <li><a href="https://www.deltainternet.net.br/blog/9/a-historia-da-origem-da-internet" target="_blank">Origem da internet.</a></li>
+        <li><a href="https://tudosobrehospedagemdesites.com.br/o-que-e-html/" target="_blank">Definição do HTML.</a></li>
+        <li><a href="https://www.hostinger.com.br/tutoriais/o-que-e-css-guia-basico-de-css" target="_blank">Definição do CSS.</a></li>
+
+      </ul>
+
+      <!-- ==== BOTÃO BARRA DE ROLAGEM  ==== -->
+      <a class="btn-top" href="#top">
+        <img src="./assets/img/seta-para-cima.png" alt="" srcset="">
+      </a>
+
+    </footer>
+
+    <script src="./assets/javascript/indice.js"></script>
+</body>
+
+</html>

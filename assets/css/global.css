@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body {
+  background: #f3f3f3;
+}
+
+h2,
+h3 {
+  padding-bottom: 10px;
+  font-size: 20px;
+  margin: 8px auto 0px;
+  color: #1f487a;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+#logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: none;
+  font-family: sans-serif;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rebeccapurple;
+  font-family: sans-serif;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  padding: 1rem;
+  justify-content: space-around;
+  align-items: center;
+  background: #e7e7e7;
+  position: fixed;
+  top: 0;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 0.5rem;
+}
+.menu a {
+  display: block;
+  padding: 0.5rem;
+  text-transform: capitalize;
+}
+
+#area-principal {
+  width: 750px;
+  margin: 10px auto 10px auto;
+}
+
+.postagem {
+  display: inline-block;
+  background: #fff;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.1);
+}
+.postagem a {
+  text-transform: none;
+}
+.postagem p {
+  line-height: 1.5;
+}
+.postado {
+  border-left: 4px solid #d8d8d8;
+  padding-left: 5px;
+  display: block;
+  margin-top: 10px;
+}
+.data-postagem {
+  display: block;
+  font-size: 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f4f4f4;
+  margin: 0 0 10px;
+}
+
+.image {
+  display: block;
+  max-width: 100%;
+  width: 295px;
+  float: left;
+  margin: 0 10px 5px 0;
+}
+
+.btn-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  visibility: hidden;
+}
+.btn-top.visible {
+  visibility: visible;
+}
+
+footer,
+h3,
+ul {
+  margin-left: 10px;
+}
+.rodape {
+  width: 750px;
+  margin: 10px auto;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.rodape li {
+  list-style: none;
+  background-color: none;
+  margin-bottom: 10px;
+}
+.rodape a {
+  background: none;
+  text-transform: none;
+}
+.rodape a:hover {
+  border-bottom: 2px solid #c5dcfe;
+}
+.rodape ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+}

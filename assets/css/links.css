@@ -1,0 +1,31 @@
+.color-tag {
+  font-size: 19px;
+  font-weight: bold;
+  color: rebeccapurple;
+  text-indent: none;
+}
+.seta-esquerda {
+  position: relative;
+  top: -30px;
+  left: 10px;
+}
+#tags {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.titulo {
+  margin-top: 20px;
+  font-size: 23px;
+  margin-left: 40px;
+}
+.postagem .texto {
+  font-size: 18px;
+  text-indent: 1.5rem;
+  line-height: 1.9;
+  margin: -10px 10px 15px 10px;
+}
+.image-css {
+  max-width: 100%;
+  border-radius: 4px;
+  margin: 10px 10px 15px;
+}
